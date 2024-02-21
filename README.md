@@ -118,13 +118,13 @@ Save the file. ROS Workspace now has been done!!
 ## How to install ros_robot-rr-
 1.go into src file of your ROS workspace
 ```bash    
-    cd ~/(name your catkin workspace)/git_dir
+    cd ~/(name your catkin workspace)/src
 ```
-example : cd ~/catkin_ws/src/git_dir
+example : cd ~/catkin_ws/src
 
 2.clone github
 ```bash
-    git clone https://github.com/kaninso/ros_robot-rr-.git
+    git clone https://github.com/kaninso/ProjectROS.git
 ```
 ```bash
     cd ~/catkin_ws
@@ -135,11 +135,11 @@ example : cd ~/catkin_ws/src/git_dir
 
 3.add permission to execute gui python
 ```bash
-    cd src/git_dir/ros_robot-rr-.
+    cd src/git_dir/ProjectROS
 ```
 ```bash
     chmod +x MainProject.py
 ```
 ```bash
-    roslaunch ros_robot-rr- Rviz_node.launch port:="(name your port of arduino)"
+    roslaunch ProjectROS Rviz_node.launch port:="(name your port of arduino)"
 ```
