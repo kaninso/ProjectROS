@@ -147,7 +147,8 @@ example : cd ~/catkin_ws/src
 ```bash
     source devel/setur.bash
 ```
->
+
+4. Used to initialize the ROS node.
 
 ```bash
     roslaunch ProjectROS Rviz_node.launch model:=' $(find ProjectROS)/urdf/robot.urdf'
