@@ -141,5 +141,13 @@ example : cd ~/catkin_ws/src
     chmod +x MainProject.py
 ```
 ```bash
-    roslaunch ProjectROS Rviz_node.launch port:="(name your port of arduino)"
+    cd ~/catkin/
+```
+>In case you can't find the file
+```bash
+    source devel/setur.bash
+```
+
+```bash
+    roslaunch ProjectROS Rviz_node.launch model:=' $(find ProjectROS)/urdf/robot.urdf'
 ```
