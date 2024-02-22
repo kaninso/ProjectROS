@@ -135,13 +135,13 @@ example : cd ~/catkin_ws/src
 
 3.add permission to execute gui python
 ```bash
-    cd src/git_dir/ProjectROS
+    cd src/ProjectROS
 ```
 ```bash
     chmod +x MainProject.py
 ```
 ```bash
-    cd ~/catkin/
+    cd ~/catkin_ws/
 ```
 >In case you can't find the file
 ```bash
