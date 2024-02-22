@@ -115,7 +115,7 @@ Save the file. ROS Workspace now has been done!!
     catkin_make
 ```
 
-## How to install ros_robot-rr-
+## How to install ProjectROS
 1.go into src file of your ROS workspace
 ```bash    
     cd ~/(name your catkin workspace)/src
